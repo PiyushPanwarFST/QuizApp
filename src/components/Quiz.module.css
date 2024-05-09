@@ -1,0 +1,113 @@
+.options {
+  display: flex;
+  gap: 18rem;
+  margin-top: 2rem;
+}
+
+.QuizPage {
+  background-image: url("/public/636c3ea47d76b.webp");
+  background-size: 105% 115%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Qborder {
+  border: 2px solid white; /* Sets a solid black border with a thickness of 2px */
+  color: black;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  min-width: 60vw;
+  border-radius: 3rem;
+  min-height: 4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.option p {
+  border: 2px solid white; /* Sets a solid black border with a thickness of 2px */
+  color: black;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  background-color: white;
+  min-width: 19vw;
+  font-size: 1.3rem;
+  min-height: 6vh;
+  border-radius: 3rem;
+  margin-top: 2.5rem;
+  justify-content: center;
+}
+
+.block {
+  display: flex;
+  height: 37rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  height: 6vh;
+  width: 8vw;
+  border-radius: 1.3rem;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fb0be3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.7s ease;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: white;
+  color: #fb0be3;
+}
+
+.btnBlock {
+  margin-left: 18rem;
+  display: flex;
+  gap: 42rem;
+}
+
+.tag {
+  color: rgb(70, 183, 240);
+  padding-top: 2rem;
+  font-weight: 900;
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.report {
+  position: absolute;
+  height: 23rem;
+  width: 40rem;
+  background-image: url("/public/—Pngtree—modern double color futuristic neon_1181573.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 2rem;
+  top: 25vh;
+  left: 28vw;
+  color: white;
+  visibility: hidden;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 45px rgb(255, 255, 255);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
