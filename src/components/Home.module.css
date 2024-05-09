@@ -1,5 +1,5 @@
 .Home {
-  background-image: url("./public/background1.jpeg");
+  background-image: url("/public/background1.jpeg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: 100% 117%;
